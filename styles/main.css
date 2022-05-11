@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    background-color: #F8F8F8;
+    min-width: 300px;
+    max-width: 1921px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main__h1 {
+    font-size: 28px;
+    margin-left: 16px;
+}
+.main__h1::before {
+    content: url("/images/highlight.svg");
+    position: absolute;
+    margin-left: -16px;
+    margin-top: -2px;
+}
+
+
+/*-------------------------------------------------Скролл меню-------------------------------------------------*/
+.main__ul {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: baseline;
+    padding: 0px 0px 0px 16px;
+}
+.main__li:first-child {
+
+    background-color: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main__li {
+    font-size: 16px;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+
+
+/*-------------------------------------------------Читать далее-------------------------------------------------*/
+.main__paragraph {
+    margin-left: 16px;
+}
+.main__read-more {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.main__label {
+    margin-left: 48px;
+}
+.main__label::before {
+    content: url("/images/labelicon.svg");
+    position: absolute;
+    margin-left: -16px;
+}
+
+.main__checkbox {
+    display: none;
+}
+.main__paragraph--hidden {
+    margin-left: 16px;
+}
+#main__checkbox:checked ~ .main__paragraph--hidden {
+    display: none;
+}
+/*-------------------------------------------------Картинка-------------------------------------------------*/
+.main__img  {
+    margin-top: 15px;
+    width: 320px;
+    height: 200px;
+}

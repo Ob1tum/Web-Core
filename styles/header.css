@@ -1,0 +1,189 @@
+.header__wrapper {
+    height: 88px;
+    background-color: #FFFFFF;
+    overflow: auto; /*чтоб навигашка не двигала обёртку*/
+}
+
+.header__nav {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left-menu {
+    display: flex;
+    min-width: 160px;
+    justify-content: space-between;    
+    align-items: center;
+    margin-left: 24px;
+}
+
+.header__middle-menu {
+    min-width: 156px; 
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.header__right-menu {
+    display: flex;
+    min-width: 120px; 
+    margin-right: 16px;
+    justify-content: flex-end;
+
+}
+
+
+/*Оформи интеракцию на кнопках или тебя макнут!!! Я бля не шучу*/
+.header__item--burger {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/burger.svg) no-repeat; 
+}
+/*так, епта, тут/там 2 разделителя, 
+поиграйся потом с отсупами
+или поиграются с твоим очком*/
+.header__item--burger::after {
+    content: url(/images/divider.svg);
+    margin-left: 45px;
+}
+
+.header__item--logo {
+    height: 55px;
+    width: 100px;
+    border: 0px;
+    background: url(/images/Group.svg) no-repeat;
+}
+
+.header__item--call {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/call.svg) no-repeat;  
+    margin: 0 8px 0 8px;
+}
+
+.header__item--chat {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/chat.svg) no-repeat;  
+    margin: 0 8px 0 8px;
+}
+
+.header__item--profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/profile.svg) no-repeat;  
+    margin: 0 8px 0 8px;
+}
+.header__item--repair {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/repair.svg) no-repeat;  
+    margin-right: 8px;
+}
+
+.header__item--repair::before {
+    content: url(/images/divider.svg);
+    margin-left: -55px;     
+}
+
+.header__item--checkstatus {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/checkstatus.svg) no-repeat;  
+    margin-right: 24px;
+}
+/*с кнопками вроде всё*/
+/*---------------------------------а что это тут у нас? медиазапросики?!---------------------------------*/
+
+/*больше 769*/
+@media (min-width: 769px) {
+    .header {
+        display: none;
+    }
+    .main__h1 {
+        display: none;
+    }
+   
+}
+/*до 500*/
+@media (max-width: 500px) {
+    .header__left-menu {
+        margin-left: 16px;
+    }
+    .header__middle-menu {
+        display: none;
+    }
+    .header__item--repair::before {
+        display: none;
+    }
+    .header__item--checkstatus {
+        margin-right: 0px;
+    }
+}
+
+/*-------------------------------------------------десктоп--------------------------------------------------*/
+.desktop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 42px;
+}
+.desktop-header__right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-header__item--repair {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/repair.svg) no-repeat;  
+    margin-right: 32px;
+}
+.desktop-header__item--checkstatus {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: url(/images/checkstatus.svg) no-repeat;  
+    margin-right: 24px;
+}
+.desktop-header__h1 {
+    font-size: 28px;
+    margin-left: 16px;
+}
+.desktop-header__h1::before {
+    content: url("/images/highlight.svg");
+    position: absolute;
+    margin-left: -16px;
+    margin-top: -2px;
+}
+
+.desktop-header__label {
+    margin-right: 8px;
+}
+
+@media (max-width: 769px) {
+    .desktop-header {
+        display: none;
+    }
+
+}
+
+
