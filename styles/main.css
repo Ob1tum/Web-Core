@@ -3,12 +3,14 @@ body {
     background-color: #F8F8F8;
     min-width: 300px;
     max-width: 1921px;
+    font-family: 'TTLakes-Regular';
 }
 .main {
     display: flex;
     flex-direction: column;
 }
 .main__h1 {
+    font-family: 'TTLakes-Bold';
     font-size: 28px;
     margin-left: 16px;
 }
@@ -74,6 +76,7 @@ body {
 #main__checkbox:checked ~ .main__paragraph--hidden {
     display: none;
 }
+
 /*-------------------------------------------------Картинка-------------------------------------------------*/
 .main__img  {
     margin-top: 15px;
