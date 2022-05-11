@@ -48,11 +48,25 @@ body {
 
 }
 
+/*-------------------------------------------------Главная секция-------------------------------------------------*/
+.main__img  {
+    margin-top: 15px;
+    width: 320px;
+    height: 200px;
+}
+
+.main__about {
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+}
+
 
 
 /*-------------------------------------------------Читать далее-------------------------------------------------*/
 .main__paragraph {
     margin-left: 16px;
+    max-width: 300px;
 }
 .main__read-more {
     display: flex;
@@ -70,16 +84,9 @@ body {
 .main__checkbox {
     display: none;
 }
-.main__paragraph--hidden {
-    margin-left: 16px;
-}
+
 #main__checkbox:checked ~ .main__paragraph--hidden {
     display: none;
 }
 
-/*-------------------------------------------------Картинка-------------------------------------------------*/
-.main__img  {
-    margin-top: 15px;
-    width: 320px;
-    height: 200px;
-}
+

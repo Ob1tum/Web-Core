@@ -110,8 +110,8 @@
 /*с кнопками вроде всё*/
 /*---------------------------------а что это тут у нас? медиазапросики?!---------------------------------*/
 
-/*больше 769*/
-@media (min-width: 769px) {
+/*больше 785*/
+@media (min-width: 785px) {
     .header {
         display: none;
     }
@@ -180,7 +180,7 @@
     margin-right: 8px;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 784px) {
     .desktop-header {
         display: none;
     }
