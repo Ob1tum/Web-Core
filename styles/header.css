@@ -36,7 +36,7 @@
 }
 
 
-/*Оформи интеракцию на кнопках или тебя макнут!!! Я бля не шучу*/
+/*Оформи интеракцию на кнопках или тебя макнут!!! Я *ля не шучу*/
 .header__item--burger {
     height: 40px;
     width: 40px;
@@ -44,9 +44,7 @@
     border: 0px;
     background: url(/images/burger.svg) no-repeat; 
 }
-/*так, епта, тут/там 2 разделителя, 
-поиграйся потом с отсупами
-или поиграются с твоим очком*/
+
 .header__item--burger::after {
     content: url(/images/divider.svg);
     margin-left: 45px;
@@ -107,10 +105,10 @@
     background: url(/images/checkstatus.svg) no-repeat;  
     margin-right: 24px;
 }
-/*с кнопками вроде всё*/
+
 /*---------------------------------а что это тут у нас? медиазапросики?!---------------------------------*/
 
-/*больше 785*/
+
 @media (min-width: 785px) {
     .header {
         display: none;
@@ -120,7 +118,7 @@
     }
    
 }
-/*до 500*/
+
 @media (max-width: 500px) {
     .header__left-menu {
         margin-left: 16px;
