@@ -51,7 +51,7 @@ body {
 /*-------------------------------------------------Главная секция-------------------------------------------------*/
 .main__img  {
     margin-top: 15px;
-    width: 320px;
+    width: 319px;
     height: 200px;
 }
 
@@ -92,19 +92,7 @@ body {
 }
 
 
-@media (max-width: 767px) {
-    p {
-        width: 288px;
-    }
-    .main__paragraph {
-        margin-left: 16px;
-    }
-    .main__img {
-        max-width: 320px;
-        max-height: 231px;
-    }
-    
-}
+
  @media (max-width: 1099px) {
     p {
         width: 312px;
@@ -124,7 +112,7 @@ body {
         width: 490px;
     }
     .main__paragraph {
-        margin-left: 36px;
+        margin-left: 35px;
     }
     .main__img {
         margin-right: 28px;
@@ -132,3 +120,17 @@ body {
         height: 383px;
     }
 }  
+
+@media (max-width: 767px) {
+    p {
+        width: 288px;
+    }
+    .main__paragraph {
+        margin-left: 16px;
+    }
+    .main__img {
+        max-width: 310px;
+        max-height: 231px;
+    }
+    
+}
