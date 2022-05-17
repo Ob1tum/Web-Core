@@ -42,11 +42,11 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/burger.svg) no-repeat; 
+    background: url(../images/burger.svg) no-repeat; 
 }
 
 .header__item--burger::after {
-    content: url(/images/divider.svg);
+    content: url(../images/divider.svg);
     margin-left: 45px;
 }
 
@@ -54,7 +54,7 @@
     height: 55px;
     width: 100px;
     border: 0px;
-    background: url(/images/Group.svg) no-repeat;
+    background: url(../images/Group.svg) no-repeat;
 }
 
 .header__item--call {
@@ -62,7 +62,7 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/call.svg) no-repeat;  
+    background: url(../images/call.svg) no-repeat;  
     margin: 0 8px 0 8px;
 }
 
@@ -71,7 +71,7 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/chat.svg) no-repeat;  
+    background: url(../images/chat.svg) no-repeat;  
     margin: 0 8px 0 8px;
 }
 
@@ -80,7 +80,7 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/profile.svg) no-repeat;  
+    background: url(../images/profile.svg) no-repeat;  
     margin: 0 8px 0 8px;
 }
 .header__item--repair {
@@ -88,12 +88,12 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/repair.svg) no-repeat;  
+    background: url(../images/repair.svg) no-repeat;  
     margin-right: 8px;
 }
 
 .header__item--repair::before {
-    content: url(/images/divider.svg);
+    content: url(../images/divider.svg);
     margin-left: -55px;     
 }
 
@@ -102,7 +102,7 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/checkstatus.svg) no-repeat;  
+    background: url(../images/checkstatus.svg) no-repeat;  
     margin-right: 24px;
 }
 
@@ -151,7 +151,7 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/repair.svg) no-repeat;  
+    background: url(../images/repair.svg) no-repeat;  
     margin-right: 32px;
 }
 .desktop-header__item--checkstatus {
@@ -159,7 +159,7 @@
     width: 40px;
     border-radius: 50%;
     border: 0px;
-    background: url(/images/checkstatus.svg) no-repeat;  
+    background: url(../images/checkstatus.svg) no-repeat;  
     margin-right: 24px;
 }
 .desktop-header__h1 {
@@ -168,7 +168,7 @@
     margin-left: 16px;
 }
 .desktop-header__h1::before {
-    content: url("/images/highlight.svg");
+    content: url("../images/highlight.svg");
     position: absolute;
     margin-left: -16px;
     margin-top: -2px;
