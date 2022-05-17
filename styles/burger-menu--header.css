@@ -1,0 +1,30 @@
+.header {
+    width: 320px;
+    height: 80px;
+    overflow: hidden;
+}
+.header__nav {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.header__item--burger {
+    width: 40px;
+    height: 40px;
+    background: url(../images/altburger.svg) no-repeat;
+}
+.header__item--logo {
+    width: 160px;
+    height: 60px;
+    background: url(../images/Group.svg) no-repeat;
+    
+}
+
+.header__item--search {
+    width: 40px;
+    height: 40px;
+    background: url(../images/search.svg) no-repeat;
+    align-self: start;
+}

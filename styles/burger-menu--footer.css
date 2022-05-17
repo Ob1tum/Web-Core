@@ -1,0 +1,56 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 168px;
+
+}
+
+.footer__item--call {
+    width: 40px;
+    height: 40px;
+    background: url(../images/call.svg) no-repeat;
+}
+
+.footer__item--chat {
+    width: 40px;
+    height: 40px;
+    background: url(../images/chat.svg) no-repeat;
+}
+
+.footer__item--profile {
+    width: 40px;
+    height: 40px;
+    background: url(../images/profile.svg) no-repeat;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.footer__mail {
+    color: #1B1C21;
+    line-height: 24px;
+}
+.footer__number{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footer__lang {
+    margin-top: 40px;
+}
