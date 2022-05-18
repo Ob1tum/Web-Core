@@ -36,7 +36,7 @@
 }
 
 
-/*Оформи интеракцию на кнопках или тебя макнут!!! Я *ля не шучу*/
+
 .header__item--burger {
     height: 40px;
     width: 40px;
@@ -136,6 +136,8 @@
 
 /*-------------------------------------------------десктоп--------------------------------------------------*/
 .desktop-header {
+    max-width: 1100px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: baseline;

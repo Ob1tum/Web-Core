@@ -15,7 +15,7 @@ body {
     margin-left: 16px;
 }
 .main__h1::before {
-    content: url("/images/highlight.svg");
+    content: url("../images/highlight.svg");
     position: absolute;
     margin-left: -16px;
     margin-top: -2px;
@@ -48,6 +48,8 @@ body {
 
 }
 
+
+
 /*-------------------------------------------------Главная секция-------------------------------------------------*/
 .main__img  {
     margin-top: 15px;
@@ -56,6 +58,8 @@ body {
 }
 
 .main__about {
+    max-width: 1100px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -78,7 +82,7 @@ body {
     margin-left: 48px;
 }
 .main__label::before {
-    content: url("/images/labelicon.svg");
+    content: url("../images/labelicon.svg");
     position: absolute;
     margin-left: -16px;
 }
@@ -105,6 +109,7 @@ body {
         width: 360px;
         height: 260px;
     }
+    
 }
 
 @media (min-width: 1100px) {
@@ -119,6 +124,10 @@ body {
         width: 532px;
         height: 383px;
     }
+    .main__nav {
+        max-width: 1100px;
+        margin: auto;
+    } 
 }  
 
 @media (max-width: 767px) {
