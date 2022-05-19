@@ -49,6 +49,7 @@
 .header__item--burger::after {
     content: url(../images/divider.svg);
     margin-left: 45px;
+    cursor: default;
 }
 
 .header__item--logo {
@@ -100,7 +101,8 @@
 
 .header__item--repair::before {
     content: url(../images/divider.svg);
-    margin-left: -55px;     
+    margin-left: -55px;  
+    cursor: default;
 }
 
 .header__item--checkstatus {

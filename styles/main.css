@@ -13,6 +13,7 @@ body {
     font-family: 'TTLakes-Bold';
     font-size: 28px;
     margin-left: 16px;
+    cursor: default;
 }
 .main__h1::before {
     content: url("../images/highlight.svg");
@@ -72,7 +73,7 @@ body {
 /*-------------------------------------------------Читать далее-------------------------------------------------*/
 .main__paragraph {
     margin-left: 16px;
-    
+    cursor: default;
 }
 .main__read-more {
     display: flex;
