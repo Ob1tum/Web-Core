@@ -15,6 +15,7 @@ body {
 }
 .main__nav li {
     margin: 32px 0px 32px 0px;
+    cursor: pointer;
 
 }
 .main__nav li:first-child {

@@ -38,6 +38,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 16px;
+    cursor: default;
 }
 
 .footer__mail {
@@ -52,6 +53,9 @@
 
 .footer__lang {
     margin-top: 40px;
+}
+.footer__langs {
+    cursor: pointer;
 }
 .footer__lang span:first-child {
     color: #7E7E82;
