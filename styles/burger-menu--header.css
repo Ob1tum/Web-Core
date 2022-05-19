@@ -4,21 +4,27 @@
     overflow: hidden;
 }
 .header__nav {
+    margin: 0px 24px;
+    width: auto;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+
 }
 .header__item--burger {
     width: 40px;
     height: 40px;
     background: url(../images/altburger.svg) no-repeat;
+    cursor: pointer;
 }
+
 .header__item--logo {
     width: 160px;
     height: 60px;
     background: url(../images/Group.svg) no-repeat;
+    cursor: pointer;
     
 }
 
@@ -27,4 +33,12 @@
     height: 40px;
     background: url(../images/search.svg) no-repeat;
     align-self: start;
+    cursor: pointer;
+}
+
+.header__items:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    opacity: 0.5;
 }

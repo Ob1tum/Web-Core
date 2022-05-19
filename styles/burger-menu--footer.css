@@ -1,6 +1,5 @@
 .footer {
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
     width: auto;
     height: 200px;
     display: flex;
@@ -53,4 +52,14 @@
 
 .footer__lang {
     margin-top: 40px;
+}
+.footer__lang span:first-child {
+    color: #7E7E82;
+}
+
+.footer__items:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    opacity: 0.5;
 }
