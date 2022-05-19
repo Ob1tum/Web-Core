@@ -24,6 +24,9 @@ body {
 
 
 /*-------------------------------------------------Скролл меню-------------------------------------------------*/
+ .main__nav {
+    margin: 20px 0px;
+} 
 .main__ul {
     overflow: auto;
     display: flex;
@@ -128,7 +131,7 @@ body {
     }
     .main__nav {
         max-width: 1100px;
-        margin: auto;
+        margin: 20px auto;
     } 
 }  
 
