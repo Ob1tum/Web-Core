@@ -87,6 +87,7 @@ body {
     margin-left: 48px;
     cursor: pointer;
 }
+/*-----развернуть при unchecked п-элемент-----*/
 .main__label::before {
     content: url("../images/labelicon.svg");
     position: absolute;
