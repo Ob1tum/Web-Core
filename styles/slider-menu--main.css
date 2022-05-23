@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'TTLakes-Regular';
+    background-color: #F2F2F2;
+}
+.main-slider {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.slider-item {
+    min-height: 72px;
+    min-width: 240px;
+    border-radius: 6px;
+    background-color: rgb(45, 255, 245);
+    margin: 10px;
+}
+
+
+.main-item--lenovo {
+    
+}
