@@ -1,0 +1,16 @@
+.slider-menu__header {
+    min-height: 56px;
+    width: auto;
+    background: linear-gradient(270deg, #471515 0%, #FFFFFF 98.61%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.slider-menu__wrapper {
+    padding: 16px;
+}
+.slider-menu__paragraph {
+    margin: auto;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
