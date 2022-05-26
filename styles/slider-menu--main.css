@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 .main-slider__slider-item {
     display: flex;
@@ -103,8 +104,5 @@ body {
     background-image: url("../images/labelicon.svg");
     background-repeat: no-repeat;
     background-position: 0px 6px;
+
 }
-/* .show-more::before {
-    content: url("../images/labelicon.svg");
-    margin-right: 10px;
-} */
