@@ -12,3 +12,4 @@ function readMore() {
         showMore.style.backgroundImage = "url(../images/labeliconreverse.svg)";
     }
 }
+

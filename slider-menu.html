@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styles/slider-menu--header.css">
     <link rel="stylesheet" href="styles/slider-menu--main.css">
     <link rel="stylesheet" href="styles/fonts.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/swiper.css">
 </head>
 <body class="slider-menu">
     <header class="slider-menu__header">
@@ -66,9 +67,84 @@
                 <div class="main-slider__icon"></div>
             </div>
         </div>
-       
     </main>
     <a class="show-more" id="show-more" onclick="readMore()">Показать всё</a>
+    
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--lenovo"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--samsung"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--apple"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--view-sonic"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--bosch"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--hp"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--acer"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--sony"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+
+
     <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
 </body>
 </html>
