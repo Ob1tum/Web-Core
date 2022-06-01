@@ -106,3 +106,18 @@ body {
     background-position: 0px 6px;
 
 }
+
+/*-------------------------------------------------свайпер-------------------------------------------------*/
+
+@media (min-width: 400px) {
+    .swiper {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-slider,
+    .show-more {
+        display: none;
+    }
+}
