@@ -85,14 +85,14 @@ body {
 }
 
 /*-------------------------------------------------скрытый слайдер-------------------------------------------------*/
-/* .hidden-slider {
+.hidden-slider {
     
     display: none;
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1120px;
 
-} */
+}
 .show-more {
     cursor: pointer;
     min-width: 100px;
