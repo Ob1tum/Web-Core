@@ -20,7 +20,7 @@ body {
     border: 1px solid #EAEAEA;
     border-radius: 6px;
     background-color: #FFFFFF;
-    margin: 16px;
+    margin: 12px;
 }
 
 
@@ -119,5 +119,12 @@ body {
     .main-slider,
     .show-more {
         display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-slider__slider-item {
+        min-width: 224px;
+
     }
 }

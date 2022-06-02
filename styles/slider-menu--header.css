@@ -5,7 +5,7 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .slider-menu__wrapper {
-    padding: 16px;
+    padding: 16px 16px 16px 24px;
 }
 .slider-menu__paragraph {
     margin: auto;
