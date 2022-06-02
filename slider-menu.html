@@ -14,9 +14,9 @@
 <body class="slider-menu">
     <header class="slider-menu__header">
         <div class="slider-menu__wrapper">
-            <p class="slider-menu__paragraph">
+            <div class="slider-menu__paragraph">
                 Ремонт техники различных брендов
-            </p>
+            </div>
         </div>
     </header>
     <main class="main-slider">
@@ -52,24 +52,29 @@
             <div class="main-slider__logo--sony"></div>
             <div class="main-slider__icon"></div>
         </div>
+  
         
-        <div class="hidden-slider" id="hidden-slider">
-            <div class="main-slider__slider-item">
-                <div class="main-slider__logo--lenovo"></div>
-                <div class="main-slider__icon"></div>
-            </div>
-            <div class="main-slider__slider-item">
-                <div class="main-slider__logo--samsung"></div>
-                <div class="main-slider__icon"></div>
-            </div>
-            <div class="main-slider__slider-item">
-                <div class="main-slider__logo--apple"></div>
-                <div class="main-slider__icon"></div>
-            </div>
-        </div>
         
     </main>
-    <a class="show-more" id="show-more" onclick="readMore()">Показать всё</a>
+
+    <div class="hidden-slider" id="hidden-slider">
+        <div class="main-slider__slider-item">
+            <div class="main-slider__logo--lenovo"></div>
+            <div class="main-slider__icon"></div>
+        </div>
+        <div class="main-slider__slider-item">
+            <div class="main-slider__logo--samsung"></div>
+            <div class="main-slider__icon"></div>
+        </div>
+        <div class="main-slider__slider-item">
+            <div class="main-slider__logo--apple"></div>
+            <div class="main-slider__icon"></div>
+        </div>
+    </div>
+    <div class="show-more-wrapper">
+        <a class="show-more" id="show-more" onclick="readMore()">Показать всё</a>       
+    </div>
+    
     
     <div class="swiper">
         <!-- Additional required wrapper -->
