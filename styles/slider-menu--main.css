@@ -85,15 +85,14 @@ body {
 }
 
 /*-------------------------------------------------скрытый слайдер-------------------------------------------------*/
-.hidden-slider {
-    
-    display: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1120px;
 
+.hidden-item{
+    display: none;
 }
-.show-more {
+.showed-item {
+    display: flex;
+}
+.button {
     cursor: pointer;
     min-width: 100px;
     height: 30px;
@@ -101,10 +100,17 @@ body {
     color: black;
     text-decoration: none;
     margin-left: 23px;
+}
+
+.show-more{
     background-image: url("../images/labelicon.svg");
     background-repeat: no-repeat;
     background-position: 0px 6px;
-
+}
+.hide-more {
+    background-image: url("../images/labeliconreverse.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 6px;
 }
 
 .show-more-wrapper{
@@ -135,8 +141,8 @@ body {
 }
 
 @media (min-width: 1121px) {
-    .main-slider,
-    .hidden-slider {
+    .main-slider /* ,
+    .hidden-slider */{ 
     margin: auto;
     }
 }
