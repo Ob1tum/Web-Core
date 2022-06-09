@@ -1,7 +1,7 @@
-body {
-    margin: 0;
+.slider-menu {
+    margin-top: 30px;
     font-family: 'TTLakes-Regular';
-    background-color: #F2F2F2;
+    background-color: #F8F8F8;
 }
 .main-slider {
     max-width: 1120px;
@@ -146,8 +146,3 @@ body {
     margin: auto;
     }
 }
-
-/* .test-div {
-    width: 500px;
-    height: 200px;
-} */

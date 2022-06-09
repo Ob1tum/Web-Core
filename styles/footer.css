@@ -1,0 +1,23 @@
+footer {
+    height: 100px;
+    background-color: #F2F2F2;
+    margin: auto;
+    display: flex;
+
+}
+.footer__container {
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    bottom: 0;
+    margin: auto;
+}
+.footer__items {
+    font-size: 14px;
+    margin-left: 30px;
+    color: #7E7E82;
+    width: auto;
+}

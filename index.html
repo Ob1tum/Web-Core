@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/slider-menu--header.css">
+    <link rel="stylesheet" href="styles/slider-menu--main.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/swiper.css">
+    <link rel="stylesheet" href="styles/tech--header.css">
+    <link rel="stylesheet" href="styles/tech--main.css">
+    <link rel="stylesheet" href="styles/cost-menu--header.css">
+    <link rel="stylesheet" href="styles/cost-menu--main.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
 
     <header class="header">
         <div class="header__wrapper">
-
         <nav class="header__nav">
             <div class="header__left-menu">
                 <button type = "button" class="header__item--burger"></button>
@@ -77,6 +86,283 @@
             </aside>
         </section>
     </main>
-    <footer></footer>
+    
+    <div class="slider-menu">
+        <header class="slider-menu__header">
+            <div class="slider-menu__wrapper">
+                <div class="slider-menu__paragraph">
+                    Ремонт техники различных брендов
+                </div>
+            </div>
+        </header>
+        <main class="main-slider">
+             <div class="main-slider__slider-item"> 
+                <div class="main-slider__logo--lenovo"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--samsung"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--apple"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--view-sonic"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--bosch"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--hp"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--acer"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item">
+                <div class="main-slider__logo--sony"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+    
+            <div class="main-slider__slider-item hidden-item">
+                <div class="main-slider__logo--lenovo"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item hidden-item">
+                <div class="main-slider__logo--samsung"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+            <div class="main-slider__slider-item hidden-item">
+                <div class="main-slider__logo--apple"></div>
+                <div class="main-slider__icon"></div>
+            </div>
+      
+        </main>
+        
+        <div class="show-more-wrapper">
+            <a class="button show-more" id="show-more">Показать всё</a>     
+        </div>
+          
+        
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--lenovo"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--samsung"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--apple"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--view-sonic"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--bosch"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--hp"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--acer"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+    
+              <div class="swiper-slide">
+                <div class="main-slider__slider-item">
+                    <div class="main-slider__logo--sony"></div>
+                    <div class="main-slider__icon"></div>
+                </div>
+              </div>
+              
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
+
+        
+    </div>
+    <div class="tech-menu">
+        <div class="tech-menu__header">
+            <div class="tech-menu__wrapper">
+                <div class="tech-menu__paragraph">
+                    Ремонт различных видов техники
+                </div>
+            </div>
+        </div>
+        <div class="tech-menu__main">
+            <div class="tech-menu__wrapper">
+                <div class="tech-menu__content">
+
+                    <div class="tech-menu__item">
+                        <div class="tech-menu__item-paragraph">
+                            Ремонт ноутбуков
+                        </div>
+                        <div class="tech-menu__icon"></div>
+                    </div>
+                    <div class="tech-menu__item">
+                        <div class="tech-menu__item-paragraph">
+                            Ремонт планшетов
+                        </div> 
+                        <div class="tech-menu__icon"></div>
+                    </div>
+                    <div class="tech-menu__item">
+                        <div class="tech-menu__item-paragraph">
+                            Ремонт ПК
+                        </div>
+                        <div class="tech-menu__icon"></div>
+                    </div>
+                    <div class="tech-menu__item">
+                        <div class="tech-menu__item-paragraph">
+                            Ремонт  мониторов
+                        </div>
+                        <div class="tech-menu__icon"></div> 
+                    </div>
+                    
+                    <div class="tech-menu__item hidden-item-tech">
+                        <div class="tech-menu__item-paragraph">
+                            Ремонт ноутбуков
+                        </div>
+                        <div class="tech-menu__icon"></div>
+                    </div>
+                    <div class="tech-menu__item hidden-item-tech">
+                        <div class="tech-menu__item-paragraph">
+                            Ремонт планшетов
+                        </div> 
+                        <div class="tech-menu__icon"></div>
+                    </div>
+                    <div class="tech-menu__item hidden-item-tech">
+                        <div class="tech-menu__item-paragraph">
+                            Ремонт ПК
+                        </div>
+                        <div class="tech-menu__icon"></div>
+                    </div>
+                    
+                </div>
+                <div class="show-more-wrapper-tech">
+                    <a class="button-tech show-more-tech" id="show-more-tech">Показать всё</a>     
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="cost-menu">
+        <div class="cost-menu__header">
+            <div class="cost-menu__wrapper">
+                <div class="cost-menu__paragraph">
+                    цены на услуги
+                </div>
+            </div>
+        </div>
+        <div class="cost-menu__content">
+            <div class="cost-menu__item">
+                <div class="cost-menu__name">Ремонтные услуги</div>
+                <div class="cost-menu__price">Цена</div>
+                <div class="cost-menu__time">Срок</div>
+                <div class="cost-menu__icon"></div>
+            </div>
+            <div class="cost-menu__item">
+                <div class="cost-menu__name">Диагностика</div>
+                <div class="cost-menu__price">Бесплатно</div>
+                <div class="cost-menu__time">30 мин</div>
+                <div class="cost-menu__icon"></div>
+            </div>
+            <div class="cost-menu__item">
+                <div class="cost-menu__name">Замена дисплея</div>
+                <div class="cost-menu__price">1 000 ₽</div>
+                <div class="cost-menu__time">30-120 мин</div>
+                <div class="cost-menu__icon"></div>
+            </div>
+            <div class="cost-menu__item">
+                <div class="cost-menu__name">Замена полифонического динамика</div>
+                <div class="cost-menu__price">1 000 ₽</div>
+                <div class="cost-menu__time">30-120 мин</div>
+                <div class="cost-menu__icon"></div>
+            </div>
+            <div class="cost-menu__item">
+                <div class="cost-menu__name">Тестирование с выдачей технического заключения</div>
+                <div class="cost-menu__price">1 000 ₽</div>
+                <div class="cost-menu__time">30-120 мин</div>
+                <div class="cost-menu__icon"></div>
+            </div>
+            <div class="cost-menu__item">
+                <div class="cost-menu__name">Замена программного обеспечения</div>
+                <div class="cost-menu__price">1 000 ₽</div>
+                <div class="cost-menu__time">30-120 мин</div>
+                <div class="cost-menu__icon"></div>
+            </div>
+        </div>
+        <div class="cost-menu__info">
+            <div class="cost-menu__about">
+                Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную 
+                услугу. Для получения коммерческого предложения на постоянное 
+                обслуживание, оставьте заявку.
+            </div>
+            <div class="cost-menu__comers">
+                <a href="#">Получить коммерческое предложение</a>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__items">
+                © 2019 CPS
+                Разработано командой Apesong 
+            </div>
+            <div class="footer__items">
+                Политика конфиденциальности
+            </div>
+            <div class="footer__items">
+                Информация, размещенная на данной странице, 
+                не является публичной офертой
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
 </body>
 </html>
