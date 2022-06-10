@@ -29,6 +29,7 @@
     height: 40px;
     background: url(../images/slider-menu/go.svg) no-repeat;
     margin-right: 16px;
+    margin-bottom: 16px;
 }
 .hidden-item-tech{
     display: none;
