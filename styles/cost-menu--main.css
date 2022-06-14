@@ -1,0 +1,68 @@
+.cost-menu{
+    /* background-color: #F8F8F8; */
+}
+.cost-menu__content {
+    margin: 36px auto;
+    min-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cost-menu__item {
+    width: 1056px;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.cost-menu__item:first-child {
+    color:  #7E7E82;
+    background-color: #F8F8F8;
+}
+.cost-menu__item:first-child .cost-menu__icon {
+    background: none;
+}
+
+.cost-menu__name {
+    width: 400px;
+}
+.cost-menu__price {
+    text-align: center;
+    width: 100px;
+}
+.cost-menu__time {
+    text-align: center;
+    width: 100px;
+}
+
+.cost-menu__icon {
+    width: 120px;
+    height: 34px;
+    background: url('/images/Group10.svg') no-repeat;
+    cursor: pointer;
+}
+
+.cost-menu__info {
+    margin: auto;
+    width: 1056px;
+}
+.cost-menu__about {
+    width: 500px;
+}
+.cost-menu__comers {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cost-menu__comers a {
+    text-decoration: none;
+    color: black;
+}
+.cost-menu__comers::after {
+    content: url("../images/Line.svg");
+    position: absolute;
+    margin-left: 15px;
+
+}

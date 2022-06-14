@@ -1,0 +1,11 @@
+.desktop-burger-menu {
+    width: 320px;
+    height: auto;
+    background-color: white;
+}
+ @media (max-width: 784px) {
+    .desktop-burger-menu {
+    display: none;
+   }
+    
+} 

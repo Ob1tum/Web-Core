@@ -1,0 +1,12 @@
+/*слайдер*/
+
+@media (min-width: 400px) {
+    .swiper {
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .slider-main {
+        display: none;
+    }
+}

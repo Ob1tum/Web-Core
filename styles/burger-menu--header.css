@@ -1,9 +1,9 @@
-.header {
+.burger-header {
     width: 320px;
     height: 80px;
     overflow: hidden;
 }
-.header__nav {
+.burger-header__nav {
     margin: 0px 24px;
     width: auto;
     margin-top: 20px;
@@ -13,14 +13,14 @@
     align-items: flex-start;
 
 }
-.header__item--burger {
+.burger-header__item--burger {
     width: 40px;
     height: 40px;
     background: url(../images/altburger.svg) no-repeat;
     cursor: pointer;
 }
 
-.header__item--logo {
+.burger-header__item--logo {
     width: 160px;
     height: 60px;
     background: url(../images/Group.svg) no-repeat;
@@ -28,7 +28,7 @@
     
 }
 
-.header__item--search {
+.burger-header__item--search {
     width: 40px;
     height: 40px;
     background: url(../images/search.svg) no-repeat;
@@ -36,7 +36,7 @@
     cursor: pointer;
 }
 
-.header__items:hover {
+.burger-header__items:hover {
     transform: scale(1.2);
     transition-duration: 0.3s;
     transition-timing-function: linear;

@@ -1,5 +1,5 @@
-.footer {
-    margin-top: auto;
+.burger-footer {
+    margin-top: 130px;
     width: auto;
     height: 200px;
     display: flex;
@@ -8,7 +8,7 @@
     
 }
 
-.footer__nav {
+.burger-footer__nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,52 +16,52 @@
 
 }
 
-.footer__item--call {
+.burger-footer__item--call {
     width: 40px;
     height: 40px;
     background: url(../images/call.svg) no-repeat;
 }
 
-.footer__item--chat {
+.burger-footer__item--chat {
     width: 40px;
     height: 40px;
     background: url(../images/chat.svg) no-repeat;
 }
 
-.footer__item--profile {
+.burger-footer__item--profile {
     width: 40px;
     height: 40px;
     background: url(../images/profile.svg) no-repeat;
 }
 
-.footer__contact {
+.burger-footer__contact {
     display: flex;
     flex-direction: column;
     margin-top: 16px;
     cursor: default;
 }
 
-.footer__mail {
+.burger-footer__mail {
     color: #1B1C21;
     line-height: 24px;
 }
-.footer__number{
+.burger-footer__number{
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
 }
 
-.footer__lang {
+.burger-footer__lang {
     margin-top: 40px;
 }
-.footer__langs {
+.burger-footer__langs {
     cursor: pointer;
 }
-.footer__lang span:first-child {
+.burger-footer__lang span:first-child {
     color: #7E7E82;
 }
 
-.footer__items:hover {
+.burger-footer__items:hover {
     transform: scale(1.2);
     transition-duration: 0.3s;
     transition-timing-function: linear;

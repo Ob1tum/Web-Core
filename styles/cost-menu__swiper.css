@@ -1,0 +1,20 @@
+.cost-menu-swiper-item {
+    width: 260px;
+    height: 220px;
+    background-color: #FFFFFF;
+    /* text-align: left; */
+    display: flex;
+    flex-direction: column;
+
+}
+.cost-menu__swiper-title{
+    color: #7E7E82;
+    margin: 8px 0px 0px 16px;
+}
+.cost-menu__swiper-item{
+    margin: 0px 0px 0px 16px;
+}
+.cost-menu-swiper-item .cost-menu__icon {
+    align-self: flex-end;
+    margin-right: 16px;
+}
