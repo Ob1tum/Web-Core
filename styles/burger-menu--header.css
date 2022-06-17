@@ -1,7 +1,7 @@
 .burger-header {
     width: 320px;
     height: 80px;
-    overflow: hidden;
+   
 }
 .burger-header__nav {
     margin: 0px 24px;

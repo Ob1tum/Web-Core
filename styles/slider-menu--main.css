@@ -4,7 +4,7 @@
     /* background-color: #F2F2F2; */
 }
 .slider-main {
-    max-width: 1120px;
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

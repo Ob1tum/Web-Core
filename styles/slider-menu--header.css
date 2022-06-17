@@ -14,10 +14,10 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-@media (min-width: 1121px) {
+/* @media (min-width: 1121px) {
     .slider-menu__paragraph {
     position: relative;
     width: 350px;
     margin: auto;
     }
-}
+} */

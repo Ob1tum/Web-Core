@@ -6,7 +6,7 @@
 
 }
 .footer__container {
-    width: 1120px;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

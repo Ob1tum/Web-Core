@@ -17,6 +17,7 @@
     background-color: #FFFFFF;
     position: fixed;
     z-index: 3;
+    overflow: auto;
 }
 
 .burger-main {
