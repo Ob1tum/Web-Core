@@ -2,6 +2,7 @@
     height: 88px;
     background-color: #FFFFFF;
     overflow: auto; /*чтоб навигашка не двигала обёртку*/
+    width: auto;
 }
 
 .header__nav {
@@ -10,6 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: auto;
 }
 
 .header__left-menu {
@@ -115,33 +117,7 @@
     cursor: pointer;
 }
 
-/*---------------------------------а что это тут у нас? медиазапросики?!---------------------------------*/
 
-
-@media (min-width: 785px) {
-    .header {
-        display: none;
-    }
-    .main__h1 {
-        display: none;
-    }
-   
-}
-
-@media (max-width: 500px) {
-    .header__left-menu {
-        margin-left: 16px;
-    }
-    .header__middle-menu {
-        display: none;
-    }
-    .header__item--repair::before {
-        display: none;
-    }
-    .header__item--checkstatus {
-        margin-right: 0px;
-    }
-}
 
 /*-------------------------------------------------десктоп--------------------------------------------------*/
 .desktop-header {
@@ -150,7 +126,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 42px;
+    margin-top: 2px;
 }
 .desktop-header__right-menu {
     display: flex;
@@ -189,13 +165,6 @@
 
 .desktop-header__label {
     margin-right: 8px;
-}
-
-@media (max-width: 784px) {
-    .desktop-header {
-        display: none;
-    }
-
 }
 
 

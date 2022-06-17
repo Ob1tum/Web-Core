@@ -14,12 +14,13 @@
     line-height: 24px;
     font-weight: 400;
     text-transform: uppercase;
+    padding: 16px;
 
 }
-@media (min-width: 1121px) {
+/* @media (min-width: 1121px) {
     .cost-menu__paragraph {
     position: relative;
     width: 150px;
     margin: auto;
     }
-}
+} */

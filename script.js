@@ -52,4 +52,3 @@ showMoreButton.addEventListener('click', function(){
         }
     }
 });
-

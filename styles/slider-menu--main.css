@@ -1,16 +1,17 @@
 .slider-menu {
     margin-top: 30px;
     font-family: 'TTLakes-Regular';
-    background-color: #F8F8F8;
+    /* background-color: #F2F2F2; */
 }
-.main-slider {
-    max-width: 1120px;
+.slider-main {
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto;
     
 }
-.main-slider__slider-item {
+.slider-main__slider-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,60 +25,60 @@
 }
 
 
-.main-slider__logo--lenovo {
+.slider-main__logo--lenovo {
     width: 108px;
     height: 32px;
     background: url(../images/slider-menu/lenovo.png) no-repeat;
     margin-left: 16px;
 }
 
-.main-slider__logo--samsung {
+.slider-main__logo--samsung {
     width: 116px;
     height: 39px;
     background: url(../images/slider-menu/samsung.png) no-repeat;
     margin-left: 16px;
 }
 
-.main-slider__logo--apple{
+.slider-main__logo--apple{
     width: 44px;
     height: 44px;
     background: url(../images/slider-menu/apple.png) no-repeat;
     margin-left: 16px;
 }
-.main-slider__logo--view-sonic{
+.slider-main__logo--view-sonic{
     width: 128px;
     height: 26px;
     background: url(../images/slider-menu/viewsonic.png) no-repeat;
     margin-left: 16px;
 }
 
-.main-slider__logo--bosch {
+.slider-main__logo--bosch {
     width: 128px;
     height: 29px;
     background: url(../images/slider-menu/bosch.png) no-repeat;
     margin-left: 16px;
 }
 
-.main-slider__logo--hp {
+.slider-main__logo--hp {
     width: 52px;
     height: 52px;
     background: url(../images/slider-menu/hp.png) no-repeat;
     margin-left: 10px;
 }
 
-.main-slider__logo--acer {
+.slider-main__logo--acer {
     width: 94px;
     height: 24px;
     background: url(../images/slider-menu/acer.png) no-repeat;
     margin-left: 16px;
 }
-.main-slider__logo--sony {
+.slider-main__logo--sony {
     width: 128px;
     height: 26px;
     background: url(../images/slider-menu/sony.png) no-repeat;
     margin-left: 16px;
 }
-.main-slider__icon {
+.slider-main__icon {
     width: 40px;
     height: 40px;
     background: url(../images/slider-menu/go.svg) no-repeat;
@@ -119,13 +120,9 @@
 }
 /*-------------------------------------------------медиа-------------------------------------------------*/
 
-@media (min-width: 400px) {
-    .swiper {
-        display: none;
-    }
-}
 
-@media (max-width: 400px) {
+
+/* @media (max-width: 400px) {
     .main-slider,
     .show-more,
     .hidden-slider {
@@ -141,8 +138,8 @@
 }
 
 @media (min-width: 1121px) {
-    .main-slider /* ,
-    .hidden-slider */{ 
+    .main-slider  ,
+    .hidden-slider{  
     margin: auto;
     }
-}
+} */

@@ -15,10 +15,10 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-@media (min-width: 1121px) {
+/* @media (min-width: 1121px) {
     .tech-menu__paragraph {
     position: relative;
     width: 350px;
     margin: auto;
     }
-}
+} */

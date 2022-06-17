@@ -1,4 +1,4 @@
-footer {
+.footer {
     height: 100px;
     background-color: #F2F2F2;
     margin: auto;
@@ -6,7 +6,7 @@ footer {
 
 }
 .footer__container {
-    width: 1120px;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
