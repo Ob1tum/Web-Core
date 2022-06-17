@@ -13,6 +13,23 @@ let modalBurger = document.querySelector('.modal-burger__wrapper');
 let desktopCallOpenButton = document.querySelector('.desktop-burger--call');
 let desktopFeedbackOpenButton = document.querySelector('.desktop-burger--chat');
 
+let headerCallOpenButton = document.querySelector('.header__item--call');
+let headerFeedbackOpenButton = document.querySelector('.header__item--chat');
+
+headerCallOpenButton.addEventListener('click', function(evt){
+    evt.preventDefault();
+    modalCall.classList.remove('call--hidden');
+    modalCall.classList.add('call--showed');
+   
+});
+
+headerFeedbackOpenButton.addEventListener('click', function(evt){
+    evt.preventDefault();
+    modalFeedback.classList.remove('feedback--hidden');
+    modalFeedback.classList.add('feedback--showed');
+   
+});
+
 desktopCallOpenButton.addEventListener('click', function(evt){
     evt.preventDefault();
     modalCall.classList.remove('call--hidden');
