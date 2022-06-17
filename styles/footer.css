@@ -3,6 +3,7 @@
     background-color: #F2F2F2;
     margin: auto;
     display: flex;
+    cursor: default;
 
 }
 .footer__container {
