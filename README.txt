@@ -4,5 +4,3 @@
 постараюсь разузнать. Хрен его знает, на кой ляд тебе это ревью 
 сдалось, но я в чужие дела не лезу, хочешь провести, значит есть за что…
 
-1.4 https://ob1tum.github.io/Web-Core/burger-menu.html
-1.5 https://ob1tum.github.io/Web-Core/slider-menu.html
